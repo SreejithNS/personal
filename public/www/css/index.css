@@ -1,42 +1,26 @@
-*{outline:none;}html{height:100%;width:100%;}div{display:inline-block;}
-/* 
--- FONTS USED 
-font-family: 'Roboto', sans-serif;
-font-family: 'Varela Round', sans-serif;
-font-family: 'Crete Round', serif;
- */
-body{
-    font-family: 'Roboto', sans-serif;
-    background-color:#282828;
-}
-#title_msg{
-    color:white;
-    font-size:3em;
-    font-family: 'Varela Round', sans-serif;
-    margin:0!important;
-}
-.type{
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid cyan; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  clear:both;
-  animation: 
-    typing 1s steps(40, 0),
-    blink-caret .75s step-end 4;
+* {
+  outline: none;
 }
 
-/* ANIMATIONS SECTION */
-
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+html {
+  height: 100%;
+  width: 100%;
 }
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: cyan; }
+
+div {
+  display: inline-block;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #282828;
+}
+
+.title_msg {
+  color: white;
+  font-size: 3em;
+  font-family: "Varela Round", sans-serif;
+  margin: 0;
+}
+
+/*# sourceMappingURL=index.css.map */
